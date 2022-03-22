@@ -15,7 +15,7 @@ function App() {
       <H3 text="A primeira viagem para Marte estará disponivél apartir do dia 12/03/2028. Inscreva-se em nossa lista de espera." />
       <Button text="Inscreva-se agora" />
       <SectionI />
-      <SectionIcons text="algo" />
+      <SectionIcons />
     </>
   );
 }
