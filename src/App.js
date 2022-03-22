@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/header";
+import Title from "./components/title";
+import H1 from "./components/h1";
+import H3 from "./components/h3";
+import Button from "./components/button";
+import SectionI from "./components/ilustration";
+import SectionIcons from "./components/sec-icons";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Title title="Finalmente é possível!" />
+      <H1 text="Sua jornada para Marte começa aqui" />
+      <H3 text="A primeira viagem para Marte estará disponivél apartir do dia 12/03/2028. Inscreva-se em nossa lista de espera." />
+      <Button text="Inscreva-se agora" />
+      <SectionI />
+      <SectionIcons text="algo" />
+    </>
   );
 }
 
