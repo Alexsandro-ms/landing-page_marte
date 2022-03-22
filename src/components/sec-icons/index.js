@@ -18,12 +18,6 @@ function Icons() {
           <H3>Mais de 100 missões consecutivas com sucesso.</H3>
         </Content>
       </Card>
-      <Card>
-        <Img src={Icon03} />
-        <Content>
-          <H3>Experiencia única e exclusiva.</H3>
-        </Content>
-      </Card>
     </>
   );
 }
