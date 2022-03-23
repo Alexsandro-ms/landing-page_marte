@@ -15,6 +15,28 @@ export const GlobalStyle = createGlobalStyle`
         background-image: url('../components/img/Starts.svg');
     }
 
+        /* width */
+    ::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+}
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+    border-radius: 2px;
+}
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: var(--mars); 
+    border-radius: 10px;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: var(--mars); 
+    }
+
     :root{
 
         /* COlORS VARIABLES */
