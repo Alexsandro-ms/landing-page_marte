@@ -9,10 +9,9 @@ export const Title = styled.div`
   text-transform: uppercase;
   margin-bottom: 8px;
   @media screen and (max-width: 480px) {
-    overflow: hidden;
     text-align: center;
     min-height: 42px;
-    font-size: 14px;
+    font-size: 65%;
     min-width: 273px;
   }
 `;

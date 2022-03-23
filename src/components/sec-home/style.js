@@ -17,6 +17,7 @@ export const Content = styled.div`
 `;
 
 export const AsideLeft = styled.div`
+  overflow: hidden;
   @media screen and (min-width: 480px) {
     width: 50%;
     margin-left: 112px;

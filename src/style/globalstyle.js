@@ -23,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
 
     /* Track */
     ::-webkit-scrollbar-track {
-    border-radius: 2px;
+        background-color: #222;
 }
 
     /* Handle */
@@ -34,7 +34,7 @@ export const GlobalStyle = createGlobalStyle`
 
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-    background: var(--mars); 
+    background: var(--mars-dark); 
     }
 
     :root{

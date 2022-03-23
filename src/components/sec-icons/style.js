@@ -7,6 +7,7 @@ export const Card = styled.div`
     align-items: center;
     text-align: center;
     flex-direction: column;
+    margin-bottom: 27px;
   }
   @media screen and (max-width: 480px) {
     width: 100%;
