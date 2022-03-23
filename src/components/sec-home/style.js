@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   @media screen and (min-width: 480px) {
     width: 100%;
+    overflow: hidden;
   }
 `;
 
@@ -20,18 +21,21 @@ export const AsideLeft = styled.div`
     width: 50%;
     margin-left: 112px;
   }
-  @media screen and (max-width: 1010px) {
-    width: 35%;
+  @media screen and (max-width: 480px) {
+    width: 100%;
   }
 `;
 
 export const AsideRight = styled.div`
   @media screen and (min-width: 480px) {
-    width: 550.05px;
+    min-width: 35%;
     height: 563px;
     position: absolute;
     top: 0;
     right: 0;
+  }
+  @media screen and (max-width: 480px) {
+    width: 100%;
   }
 `;
 
