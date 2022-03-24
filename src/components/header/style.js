@@ -17,9 +17,8 @@ export const Container = styled.div`
     margin-bottom: 55px;
   }
 `;
-export const Img = styled.img`
+export const Img = styled.div`
   width: 12%;
-  pointer-events: none;
   margin-left: 112px;
   @media screen and (max-width: 480px) {
     margin: 0 auto;
