@@ -1,6 +1,19 @@
-import { Container, Content, AsideLeft, AsideRight, Img } from "./style";
-
 import mars from "../img/mars.svg";
+import {
+  Container,
+  Content,
+  AsideLeft,
+  AsideRight,
+  Img,
+  SecSlider,
+  AsideLeftC,
+  AsideTitle,
+  AsideText,
+  AsideRightC,
+} from "./style";
+
+import Logo from "../logo";
+import Carousel from "../carousel";
 import Title from "../title";
 import H1 from "../h1";
 import H3 from "../h3";
@@ -19,6 +32,20 @@ function SecAbout() {
           <H3 text="A gravidade em Marte é cerca de 38% da da Terra, então você seria capaz de levantar coisas pesadas e dar voltas. Além disso, o dia está notavelmente próximo ao da Terra." />
         </AsideRight>
       </Content>
+      <SecSlider>
+        <AsideLeftC>
+          <AsideTitle>
+            <Logo />
+          </AsideTitle>
+          <AsideText>
+            <H1 text="O caminho para tornar a humanidade multiplanetária" />
+            <a href="#">Inscreva-se agora</a>
+          </AsideText>
+        </AsideLeftC>
+        <AsideRightC>
+          <Carousel />
+        </AsideRightC>
+      </SecSlider>
     </Container>
   );
 }

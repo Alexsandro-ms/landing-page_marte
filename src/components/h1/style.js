@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  max-width: 450px;
+  max-width: 550px;
   @media screen and (max-width: 480px) {
     width: 100%;
     position: relative;
