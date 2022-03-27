@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Title = styled.div`
   color: var(--sun);
-  line-height: 20.56px;
   letter-spacing: 5px;
   font-weight: 500;
   font-size: 14px;
