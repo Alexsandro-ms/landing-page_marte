@@ -61,7 +61,7 @@ NodeJs
 
 ## 🔖 Layout
 
-Você pode visualizar o projeto através dos links abaixo ou na pasta
+Você pode visualizar o projeto através dos links abaixo ou na pasta .github
 
 - [Figma](https://www.figma.com/community/file/986447430009792279/duplicate)
 
