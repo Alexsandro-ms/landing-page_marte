@@ -20,6 +20,9 @@ export const Container = styled.div`
 export const Img = styled.div`
   width: 12%;
   margin-left: 112px;
+  @media screen and (max-width: 768px) {
+    width: 20%;
+  }
   @media screen and (max-width: 480px) {
     margin: 0 auto;
     width: 30%;

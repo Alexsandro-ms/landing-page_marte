@@ -11,7 +11,7 @@ export const Container = styled.div`
   }
 `;
 export const Content = styled.div`
-  @media screen and (min-width: 481px) {
+  @media screen and (min-width: 768px) {
     margin: 27px auto 291px auto;
     display: flex;
     justify-content: center;
@@ -19,25 +19,42 @@ export const Content = styled.div`
   }
 `;
 export const AsideLeft = styled.div`
-  max-width: 690px;
+  width: 40%;
+  @media screen and (max-width: 768px) {
+    width: 70%;
+    margin: 0 auto;
+  }
 `;
 export const AsideRight = styled.div`
-  max-width: 603px;
+  width: 40%;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+    width: 70%;
+    margin: 15px auto;
+  }
 `;
 export const Img = styled.img`
   pointer-events: none;
   width: 90%;
 `;
 export const SecSlider = styled.div`
-  max-width: 100%;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin: 0 auto 100px auto;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 export const AsideLeftC = styled.div`
   width: 35%;
   margin: 0 13px 0 0;
+
+  @media screen and (max-width: 768px) {
+    width: 70%;
+  }
 `;
 export const AsideTitle = styled.div`
   max-width: 162px;
@@ -56,4 +73,7 @@ export const AsideText = styled.div`
 `;
 export const AsideRightC = styled.div`
   width: 50%;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+  }
 `;
